@@ -2,7 +2,7 @@
 
 const Product = require("../Models/product.model");
 // const uploadOnCloudinary = require("../Utils/uploadOnCloudinary");
-const uploadOnCloudinary = require("../Utils/UploadOnCloudinary");
+const uploadOnCloudinary = require("../Utils/uploadOnCloudinary");
 
 // ========== CREATE PRODUCT ==========
 const createProduct = async (req, res) => {
