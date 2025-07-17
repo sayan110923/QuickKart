@@ -4,7 +4,7 @@ const connectDB = async () => {
   try {
     await mongoose
       .connect(
-        "mongodb://localhost:27017/buy_sell"
+        "mongodb+srv://koleysayaneducation:OpSBrJRdFBUZYIBH@cluster0.vyhowyj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
       )
       .then(() => console.log("🔥 DB Connected Successfully"))
       .catch((err) => console.error("DB Error:", err));
